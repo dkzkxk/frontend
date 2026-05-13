@@ -3,6 +3,9 @@ plugins {
 }
 
 android {
+    viewBinding {
+        enable = true
+    }
     namespace = "com.example.fixsiheung"
     compileSdk {
         version = release(36) {
