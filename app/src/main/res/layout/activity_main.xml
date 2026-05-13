@@ -16,4 +16,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="152dp"
+        android:layout_height="107dp"
+        android:text="Tsdfkaslkfjslfjslkfs"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="206dp"
+        tools:ignore="MissingConstraints" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
