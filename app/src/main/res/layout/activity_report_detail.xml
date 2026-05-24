@@ -24,6 +24,13 @@
         android:textStyle="bold"
         android:layout_marginBottom="8dp"/>
 
+    <TextView
+        android:id="@+id/detailInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="조회수 ### | 작성자: ###"
+        android:textSize="16dp"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -54,13 +61,14 @@
         android:layout_weight="1"
         android:text="여기에 민원 상세 내용 본문이 들어갑니다."
         android:textSize="16sp"
+        android:background="@drawable/bg_rounded_gray"
         android:textColor="#333333" />
 
     <Button
         android:id="@+id/likebtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="공감하기"
+        android:text="공감하기 ###"
         android:layout_marginTop="16dp"/>
 
 </LinearLayout>

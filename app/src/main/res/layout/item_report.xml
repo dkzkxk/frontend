@@ -24,6 +24,12 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/itemId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="민원 ID" />
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
